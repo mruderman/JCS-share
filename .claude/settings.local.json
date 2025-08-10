@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__FastMCP-Docs__fetch_fastmcp_documentation",
+      "mcp__FastMCP-Docs__search_fastmcp_documentation",
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(timeout:*)",
+      "Bash(pkill:*)",
+      "Bash(kill:*)",
+      "Bash(claude mcp:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:modelcontextprotocol.io)",
+      "WebFetch(domain:spec.modelcontextprotocol.io)",
+      "WebFetch(domain:support.anthropic.com)",
+      "WebFetch(domain:kilocode.ai)",
+      "WebFetch(domain:mcp-framework.com)",
+      "mcp__firecrawl-mcp-server__firecrawl_scrape",
+      "mcp__firecrawl-mcp-server__firecrawl_search",
+      "Bash(ls:*)",
+      "Bash(chmod:*)",
+      "Bash(export SUDO_ASKPASS=/tmp/sudo-askpass)",
+      "Bash(sudo -A tailscale set:*)",
+      "Bash(curl:*)",
+      "Bash(ss:*)"
+    ],
+    "deny": []
+  }
+}

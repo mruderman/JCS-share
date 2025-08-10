@@ -1,0 +1,12 @@
+{
+  "cyan-science-journal": {
+    "url": "http://localhost:3001/mcp",
+    "transport": "streamable-http",
+    "description": "Cyan Science Journal MCP Server - HTTP Transport",
+    "timeout": 30000,
+    "headers": {
+      "Accept": "application/json, text/event-stream",
+      "Content-Type": "application/json"
+    }
+  }
+}
